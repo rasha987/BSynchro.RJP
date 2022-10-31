@@ -9,5 +9,7 @@ namespace BSynchro.RJP.Customer
         public string CustomerId { get;  set; }
         public string Name { get;  set; }
         public string Surname { get;  set; }
+        public double Balance { get; set; }
+        public List<AccountDto> Accounts { get; set; }
     }
 }

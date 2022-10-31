@@ -29,6 +29,7 @@ namespace BSynchro.RJP.Controllers.Customer
         public Task<PagedResultDto<CustomerListDto>> GetListAsync(GetCustomerInputDto input)
         {
             return _customerAppService.GetListAsync(input);
+
         }
     }
 }
